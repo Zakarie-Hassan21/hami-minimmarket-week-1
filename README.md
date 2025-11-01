@@ -6,8 +6,7 @@ This project allows users to explore grocery items, view product details, and ex
 
 ## 🌟 Features
 
-- 🥦 **Product Categories** – Browse groceries by category (fruits, vegetables, dairy, etc.)   
-- 💰 **Dynamic Pricing** – View total prices updated in real-time  
+- 🥦 **Popular Products** – list of image groceries by with title and price (fruits, vegetables, dairy, etc.) 
 - 📱 **Responsive Design** – Fully optimized for desktop, tablet, and mobile devices  
 - 🎨 **Modern UI** – Clean, user-friendly interface with custom brand colors  
 
@@ -23,11 +22,11 @@ This project allows users to explore grocery items, view product details, and ex
 ## 📂 Project Structure
 
 HamiMiniMarket/
-│
-├── Images
-├── index.html
-├── style.css
-├── scrip.js
+|
+|  Images
+|  index.html
+|  style.css
+|  scrip.js
 
 Run the website
 •Open index.html in your browser
