@@ -366,6 +366,46 @@ footer hr{
     text-align: center;
 }
 
+/* Back-to-top button */
+.back-to-top{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--primary-color);
+    color: var(--white-color);
+    border-radius: 50%;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+    cursor: pointer;
+    z-index: 1200;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(8px);
+    transition: opacity 0.25s ease, transform 0.25s ease, visibility 0.25s;
+    border: none;
+}
+.back-to-top.show{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+.back-to-top i{
+    font-size: 1.05rem;
+}
+
+@media (max-width: 480px){
+    .back-to-top{
+        right: 12px;
+        bottom: 14px;
+        width: 40px;
+        height: 40px;
+    }
+}
+
 
 
 

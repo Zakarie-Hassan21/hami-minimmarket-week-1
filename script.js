@@ -26,3 +26,31 @@
                 });
             });
         })();
+
+// Back-to-top behavior
+(function(){
+    const backBtn = document.querySelector('.back-to-top');
+    if(!backBtn) return;
+
+    const showAfter = 300; // px scrolled before showing button
+
+    function checkScroll(){
+        if(window.scrollY > showAfter){
+            backBtn.classList.add('show');
+        } else {
+            backBtn.classList.remove('show');
+        }
+    }
+
+    // smooth scroll to top
+    backBtn.addEventListener('click', function(){
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    // initial check and on scroll
+    checkScroll();
+    window.addEventListener('scroll', checkScroll, { passive: true });
+
+    // Optional: hide when user uses keyboard to reach top
+    window.addEventListener('hashchange', checkScroll);
+})();
