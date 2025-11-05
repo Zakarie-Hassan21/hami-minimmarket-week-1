@@ -491,7 +491,7 @@ footer hr{
         gap: 15px;
     }
     .about-img img{
-        width: 430px;
+        width: 330px;
     }
     .about-text h2{
         font-size: 28px;
@@ -503,7 +503,7 @@ footer hr{
         flex-direction: column;
     }
     .contact-text img{
-        width: 350px;
+        width: 330px;
         margin-left: 10px;
     }
     form {
