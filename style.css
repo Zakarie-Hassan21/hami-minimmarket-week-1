@@ -459,10 +459,11 @@ footer hr{
         grid-template-columns: 1fr;
         gap: 2rem;
         margin: 0 auto;
-        padding: 0 0 20px 100px;
+        padding: 0 50px;
     }
     .hero-img img{
-        width: 430px;
+        width: 330px;
+        margin: 0 20px;
     }
     .hero-text h1,
     .hero-text h2{
